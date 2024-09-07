@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRES MESES</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk:MORF,SHLN@14,77.4&family=Nerko+One&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Felices 3 meses mi amor :3</h1>
+        <button class="btn btn-primary" id="celebrationButton" data-toggle="modal" data-target="#optionsModal">Púlsame</button>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="optionsModal" tabindex="-1" role="dialog" aria-labelledby="optionsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="optionsModalLabel" style="color: antiquewhite;">Elige una opción</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body col-6 mx-auto">
+                    <!-- Primer menú -->
+                    <div id="firstMenu">
+                        <button class="btn btn-secondary btn-lg" style="margin-bottom: 2px; padding: 0.75rem 2.2rem; margin-left: 25px;" id="loveYes">Sí, te amo</button>
+                        <button class="btn btn-secondary btn-lg" style="margin-top: 6px; margin-left: 25px" id="loveNo">No, no te amo</button>
+                    </div>
+                     <!-- Mensaje para "Sí, te amo" (oculto inicialmente) -->
+                     <div id="loveMessage" style="display: none; margin-top: 1rem;">
+                        <p class="LoveMessage" style="font-family: 'Rubik Bubbles', system-ui; color: #7f94ce;">Yo te amo mucho mas preciosa, eres lo mejor que me ha pasado, te has ganado mi corazón, mi alma, mi mente y todo el cariño que te puedo dar,
+                           eres la mejor novia que un hombre puede tener, eres una mujer maravillosa mi vida, vales mucho hermosa y eres realmente importante preciosa, quiero
+                           que tu seas la persona con la cual dedique todo mi tiempo, que me levante a tu lado, que pueda estar en tus momento dificiles, en tus momentos
+                           alegres, en tus momentos que no deseas nada, no quiero nada más con nadie más si no es contigo, me reuso a perderte y siempre luchare por ti,
+                           eres mi novia y estoy muy orgulloso de ti, de la persona que fuiste y la persona que te convertiras, vas a ser la mejor criminologa del mundo entero
+                           y eso te lo aseguro, yo estare contigo para presenciar eso, te superrrrr mega amoooo tanto amor que lloro al decir estas palabras porque el amor
+                           que tengo hacia ti es tan inmeso que debo expresarlo hasta llorando, eres mi tesoro, mi futura esposa y madre de mis hijos, me haces realmente
+                           feliz asi como yo te hago feliz a ti, te mereces todo en esta vida y yo te lo voy a dar, no tienes que sufrir por nada más conmigo amor. Te amoooooo,
+                           me encantasssssss, eres todo para mi amorcito, te adoro y espero que podamos compartir mas meses juntitos hasta viejos. Sin mas amor, te dejo unas
+                           opciones guapa, si ya terminaste de leer, espera un poco.
+                        </p>
+                    </div>
+                    <!-- Mensaje para "No, no te amo" (oculto inicialmente) -->
+                    <div id="noLoveMessage" style="display: none; margin-top: 1rem;">
+                        <p class="noLoveMessage text-center">Ora culera, selecciona la otra, putita.</p>
+                    </div>
+                    <!-- Segundo menú (oculto inicialmente) -->
+                    <div id="secondMenu" style="display: none;">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="wildshit.html" target="_blank">Wild Shit</a></li>
+                            <li class="list-group-item"><a href="vikings.html" target="_blank">Vikings</a></li>
+                            <li class="list-group-item"><a href="fallgays.html" target="_blank">Fall Gays</a></li>
+                            <li class="list-group-item"><a href="otra.html" target="_blank">Otra cosa</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
